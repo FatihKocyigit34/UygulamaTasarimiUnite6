@@ -18,10 +18,10 @@
         app:layout_constraintVertical_bias="0.018" />
 
     <Button
-        android:id="@+id/uyg2Btn1"
+        android:id="@+id/ss247Btn1"
         android:layout_width="134dp"
         android:layout_height="48dp"
-        android:text="Uygulama 2"
+        android:text="SS 247"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"

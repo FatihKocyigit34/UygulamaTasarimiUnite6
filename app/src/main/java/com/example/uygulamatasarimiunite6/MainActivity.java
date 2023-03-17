@@ -4,13 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     Button btn1Uyg1, btn2Ss247;
@@ -32,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         //---------------------------------------------------
 
-        btn2Ss247 = findViewById(R.id.uyg2Btn1);
+        btn2Ss247 = findViewById(R.id.ss247Btn1);
         btn2Ss247.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
