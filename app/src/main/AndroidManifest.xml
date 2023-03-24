@@ -13,21 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UygulamaTasarimiUnite6"
         tools:targetApi="31">
+        <activity
+            android:name=".Uygulama2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            tools:ignore="ExtraText">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-    <activity tools:ignore="ExtraText"
-        android:name=".MainActivity"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-    <activity android:name=".Uygulama1Activity" android:label="Uygulama 1"></activity>
-        <activity android:name=".Ss247Activity" android:label="Sıra Sizde 247"></activity>
-
-
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Uygulama1Activity"
+            android:label="Uygulama 1" />
+        <activity
+            android:name=".Ss247Activity"
+            android:label="Sıra Sizde 247" />
     </application>
 
 </manifest>
