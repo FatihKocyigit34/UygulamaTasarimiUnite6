@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn4Uyg3 = findViewById(R.id.uyg3Btn1);
+        btn4Uyg3 = findViewById(R.id.uyg4Btn1);
         btn4Uyg3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
