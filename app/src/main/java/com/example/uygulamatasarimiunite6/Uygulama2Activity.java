@@ -13,36 +13,36 @@ public class Uygulama2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uygulama2_activity);
-        Log.e(TAG, "onCreate Çalıştırıldı");
+        Log.v(TAG, "onCreate Çalıştırıldı");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.e(TAG, "onStart Çalıştırıldı");
+        Log.v(TAG, "onStart Çalıştırıldı");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e(TAG, "onResume Çalıştırıldı");
+        Log.v(TAG, "onResume Çalıştırıldı");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.e(TAG, "onPause Çalıştırıldı");
+        Log.v(TAG, "onPause Çalıştırıldı");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.e(TAG, "onStop Çalıştırıldı");
+        Log.v(TAG, "onStop Çalıştırıldı");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e(TAG, "onDestroy Çalıştırıldı");
+        Log.v(TAG, "onDestroy Çalıştırıldı");
     }
 }
