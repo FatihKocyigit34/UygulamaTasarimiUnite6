@@ -1,6 +1,8 @@
 package com.example.uygulamatasarimiunite6;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -19,7 +21,18 @@ public class Uygulama4Activity extends AppCompatActivity {
         editTxtAdSoyad = findViewById(R.id.editTxtAdSoyad);
         editTxtTelNo = findViewById(R.id.editTxtTelNo);
 
-
+        btnactivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String kadi = editTxtAdSoyad.getText().toString();
+                String telNo = editTxtTelNo.getText().toString();
+                Singleton singleton = Singleton.getInstance();
+                singleton.setkAdi(kadi);
+                singleton.setTelNo(telNo);
+                Intent i = new Intent(Uygulama4Activity.this,Uygulama4_Anasayfa_Activity.class);
+                startActivity(i);
+            }
+        });
 
     }
 }
