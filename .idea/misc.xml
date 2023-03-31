@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/main_activity.xml" value="0.33" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/main_activity.xml" value="0.25" />
         <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/ss247_activity.xml" value="0.284737067122702" />
         <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama1_activity.xml" value="0.67" />
         <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama2_activity.xml" value="0.16210739614994935" />
@@ -11,6 +11,8 @@
         <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama3_bilgi_activity.xml" value="0.28888888888888886" />
         <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama4_activity.xml" value="0.28888888888888886" />
         <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama4_bilgi_activity.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama5_activity.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/UygulamaTasarimiUnite6/app/src/main/res/layout/uygulama5_sayfa2_activity.xml" value="0.31927083333333334" />
       </map>
     </option>
   </component>
