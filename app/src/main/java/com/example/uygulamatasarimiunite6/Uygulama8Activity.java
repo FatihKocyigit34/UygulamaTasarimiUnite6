@@ -2,6 +2,7 @@ package com.example.uygulamatasarimiunite6;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,13 +11,12 @@ import androidx.fragment.app.FragmentTransaction;
 
 public class Uygulama8Activity extends AppCompatActivity {
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.uygulama8_activity);
-
     }
 
-    public void birinciFragment()
+    public void birinciFragment(View view)
     {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
@@ -25,7 +25,7 @@ public class Uygulama8Activity extends AppCompatActivity {
         fragmentTransaction.commit();
     }
 
-    public void ikinciFragment()
+    public void ikinciFragment(View view)
     {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
