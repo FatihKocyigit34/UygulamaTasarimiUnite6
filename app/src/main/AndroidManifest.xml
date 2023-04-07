@@ -45,6 +45,7 @@
         <activity
             android:name=".Ss247Activity"
             android:label="Sıra Sizde 247" />
+        <activity android:name=".Uygulama6Activity" android:label="Uygulama 6"></activity>
 
     </application>
 
