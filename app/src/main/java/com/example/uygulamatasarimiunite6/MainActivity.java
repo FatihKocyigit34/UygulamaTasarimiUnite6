@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1Uyg1, btn2Ss247, btn3Uyg2, btn4Uyg3,btn5Uyg4,btn6Uyg,btn8Uyg;
+    Button btn1Uyg1, btn2Ss247, btn3Uyg2, btn4Uyg3,btn5Uyg4,btn6Uyg,btn8Uyg,btn10Uyg;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +84,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent uyg = new Intent(MainActivity.this, Uygulama8Activity.class);
+                startActivity(uyg);
+            }
+        });
+
+        btn10Uyg = findViewById(R.id.uyg6Btn4);
+        btn10Uyg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent uyg = new Intent(MainActivity.this, Uygulama10_Activity.class);
                 startActivity(uyg);
             }
         });

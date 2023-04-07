@@ -54,6 +54,18 @@
         app:layout_constraintVertical_bias="0.519" />
 
     <Button
+        android:id="@+id/uyg6Btn4"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:text="Uygulama 10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <Button
         android:id="@+id/Uyg1Btn1"
         android:layout_width="134dp"
         android:layout_height="48dp"
