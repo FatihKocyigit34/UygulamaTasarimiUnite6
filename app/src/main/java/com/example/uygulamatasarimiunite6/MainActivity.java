@@ -70,4 +70,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void uyg6(){
+        Intent uyg = new Intent(MainActivity.this, Uygulama6Activity.class);
+        startActivity(uyg);
+    }
+
+    public void uyg8(){
+        Intent uyg = new Intent(MainActivity.this, Uygulama8Activity.class);
+        startActivity(uyg);
+    }
 }

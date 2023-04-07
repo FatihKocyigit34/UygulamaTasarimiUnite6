@@ -16,6 +16,7 @@
         <activity
             android:name=".Uygulama5_Sayfa2_Activity"
             android:exported="false" />
+        <activity android:name=".Uygulama8Activity" android:label="Uygulama 8"></activity>
         <activity
             android:name=".Uygulama5Activity"
             android:label="Uygulama 5" />
@@ -44,6 +45,7 @@
         <activity
             android:name=".Ss247Activity"
             android:label="Sıra Sizde 247" />
+
     </application>
 
 </manifest>
